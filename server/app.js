@@ -3,6 +3,7 @@ const path = require('path')
 const logger = require('morgan')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
+const favicon = require('serve-favicon')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
@@ -14,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'jade')
 
 // uncomment after placing your favicon in /public
-// app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon-16.png')))
 app.use(logger('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
