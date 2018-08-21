@@ -16,14 +16,9 @@ $ npm run dev
 $ npm run build
 ```
 
-Compiled code will be in `./server/public/dist/` folder.
-
-## Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-We set `NPM_CONFIG_PRODUCTION` to `false` to install `devDependencies`
+## Localhost:3000
 
 ```bash
-$ heroku config:set NPM_CONFIG_PRODUCTION=false
+$ npm start
 ```
+Compiled code will be in `./server/public/dist/` folder.
