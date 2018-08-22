@@ -15,10 +15,11 @@ $ npm run dev
 ```bash
 $ npm run build
 ```
+Compiled code will be in `./server/public/dist/` folder.
 
-## Localhost:3000
+## Run locally
 
 ```bash
 $ npm start
 ```
-Compiled code will be in `./server/public/dist/` folder.
+Site will be shown at http://localhost:3000/
