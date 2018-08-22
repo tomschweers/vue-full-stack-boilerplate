@@ -1,7 +1,7 @@
 {
-  "name": "tom-schweers",
-  "description": "A repository for my personal website.",
-  "repository": "https://github.com/tomschweers/tom-schweers.git",
+  "name": "vue-full-stack-boilerplate",
+  "description": "Starting point for a full-stack Vue.js project.",
+  "repository": "https://github.com/tomschweers/vue-full-stack-boilerplate.git",
   "logo": "https://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "vue", "webpack"],
   "env": {
