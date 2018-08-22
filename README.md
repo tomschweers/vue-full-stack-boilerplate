@@ -23,3 +23,7 @@ Compiled code will be in `./server/public/dist/` folder.
 $ npm start
 ```
 Site will be shown at http://localhost:3000/
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
