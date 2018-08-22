@@ -4,7 +4,7 @@
 $ npm install
 ```
 
-## Run development mode with hot reload
+## Run dev
 
 ```bash
 $ npm run dev
