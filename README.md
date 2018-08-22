@@ -1,3 +1,5 @@
+![alt text](http://www.wamasoftware.com/images/service-images/vue-js-side-panel.png)
+
 ## Setup
 
 ```bash
