@@ -3,39 +3,32 @@ This is a very simple template to get you started with Vue.js and Express.js. Th
 
 ![alt text](http://www.wamasoftware.com/images/service-images/vue-js-side-panel.png)
 
-## Clone
+## Build Setup
 
 ```bash
+# Clone roject
 $ git clone https://github.com/tomschweers/vue-full-stack-boilerplate.git <project name>
 $ cd <project name>
-```
 
-## Setup
-
-```bash
+# Install dependencies
 $ npm install
-```
 
-## Run dev
-
-```bash
+# Run dev with hot reload
 $ npm run dev
-```
 
-## Run build
-
-```bash
+# Build for production
 $ npm run build
-```
-Compiled code will be in `./server/public/dist/` folder.
 
-## Run locally
-
-```bash
+# Run build
 $ npm start
 ```
+
+Compiled code will be in `./server/public/dist/` folder.
 Site will be shown at http://localhost:3000/
 
 ## Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+## Reference
+https://github.com/toanalien/exvue
